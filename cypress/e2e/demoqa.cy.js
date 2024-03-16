@@ -1,4 +1,4 @@
-import { SelectablePage } from "../../pageObjects/selectable.page";
+import { SelectablePage } from "../pageObjects/selectable.page";
 
 describe("Cypress testing MD1", () => {
   context("Test Grid clicks", () => {
