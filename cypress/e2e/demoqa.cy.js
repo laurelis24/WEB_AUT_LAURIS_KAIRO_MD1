@@ -7,7 +7,7 @@ describe("Cypress testing MD1", () => {
       SelectablePage.visit();
     });
 
-    it("visit page", () => {
+    it("Click elements and validate clicked and unclicked", () => {
       // Click “Grid”
       SelectablePage.gridLink.click();
 
